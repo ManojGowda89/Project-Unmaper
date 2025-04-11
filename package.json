@@ -1,17 +1,16 @@
 {
-  "name": "unmaper",
-  "version": "2.0.0",
+  "name": "pingo",
+  "version": "1.0.0",
+  "description": "A utility server for encrypted DB access, command execution, and pinging endpoints.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["ping", "server", "express", "mongodb", "cryptr"],
+  "author": "Your Name",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "child_process": "^1.0.2",
-    "crypto": "^1.0.1",
     "cryptr": "^6.3.0",
     "express": "^5.1.0",
     "mongoose": "^8.13.2"
