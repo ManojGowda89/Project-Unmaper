@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
-const { dburl } = require('../config/sealed');
+const { decryptedString } = require('../config/sealed');
 
-const connection = mongoose.createConnection(dburl, {
+const connection = mongoose.createConnection(decryptedString, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });

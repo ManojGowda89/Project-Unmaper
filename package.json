@@ -11,6 +11,8 @@
   "description": "",
   "dependencies": {
     "child_process": "^1.0.2",
+    "crypto": "^1.0.1",
+    "cryptr": "^6.3.0",
     "express": "^5.1.0",
     "mongoose": "^8.13.2"
   }
